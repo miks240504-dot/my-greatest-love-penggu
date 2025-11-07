@@ -1,28 +1,37 @@
 body {
-  background-color: #fdf6f9; /* soft blush */
+  background: linear-gradient(to bottom, #fdf6f9, #e8f0ff);
   font-family: 'Quicksand', sans-serif;
-  color: #4a4a4a;
+  color: #444;
   padding: 40px;
   text-align: center;
+  background-attachment: fixed;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
+  color: #5c3a6b;
 }
 
 p {
-  font-size: 1rem;
-  max-width: 600px;
+  font-size: 1.1rem;
+  max-width: 700px;
   margin: 0 auto;
-  line-height: 1.6;
-  color: #6a6a6a;
+  line-height: 1.8;
+  color: #666;
 }
 
 .memory-box {
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  margin-top: 30px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 16px;
+  padding: 30px;
+  margin-top: 40px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+  backdrop-filter: blur(4px);
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #999;
 }
