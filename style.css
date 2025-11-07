@@ -1,14 +1,28 @@
 body {
-  background-color: #fff0f5;
+  background-color: #fdf6f9; /* soft blush */
   font-family: 'Quicksand', sans-serif;
+  color: #4a4a4a;
+  padding: 40px;
   text-align: center;
-  padding: 50px;
-  color: #5c3a6b;
 }
 
-.container {
-  background: #ffe4e1;
-  border-radius: 15px;
-  padding: 30px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #6a6a6a;
+}
+
+.memory-box {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
