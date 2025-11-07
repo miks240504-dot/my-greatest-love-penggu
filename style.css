@@ -1,0 +1,14 @@
+body {
+  background-color: #fff0f5;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  padding: 50px;
+  color: #5c3a6b;
+}
+
+.container {
+  background: #ffe4e1;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
